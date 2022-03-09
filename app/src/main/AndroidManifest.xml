@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN3TALANG">
         <activity
+            android:name=".VoliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FutsalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PramukaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OsisActivity"
+            android:exported="false" />
+        <activity
             android:name=".Eskul"
             android:exported="false" />
         <activity

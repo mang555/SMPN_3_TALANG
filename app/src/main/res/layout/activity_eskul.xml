@@ -99,7 +99,9 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI OSIS">
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
+                                        android:text="ORGANISASI      OSIS">
 
                                     </TextView>
                                 </LinearLayout>
@@ -142,6 +144,8 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
                                         android:text="ORGANISASI PRAMUKA">
 
                                     </TextView>
@@ -185,7 +189,9 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI PMR">
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
+                                        android:text="ORGANISASI      PMR">
 
                                     </TextView>
                                 </LinearLayout>
@@ -210,7 +216,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
                                     android:orientation="horizontal"
-                                    android:background="#828080">
+                                    android:background="#A98970BF">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -219,7 +225,7 @@
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:src="@drawable/ftsl">
+                                        android:src="@drawable/futsal">
 
                                     </ImageView>
 
@@ -228,6 +234,8 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
                                         android:text="FUTSAL">
 
                                     </TextView>
@@ -252,7 +260,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
-                                    android:orientation="horizontal">
+                                    android:orientation="horizontal"
+                                    android:background="#9F9B9B">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -270,6 +279,8 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textStyle="bold"
+                                        android:textSize="20dp"
                                         android:text="VOLI">
 
                                     </TextView>
