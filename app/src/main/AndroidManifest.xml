@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN3TALANG">
         <activity
+            android:name=".album9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".album8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".album7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PrestasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FasilitasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuruActivity"
+            android:exported="false" />
+        <activity
             android:name=".VoliActivity"
             android:exported="false" />
         <activity

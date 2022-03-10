@@ -1,241 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OsisActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-    <!--            Header-->
-              <RelativeLayout
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-              </RelativeLayout>
-    <!--            Header-->
-         <RelativeLayout
-              android:layout_width="match_parent"
-               android:layout_height="wrap_content">
-
-             <ImageView
-                 android:layout_width="wrap_content"
-                 android:layout_height="210dp"
-                 android:scaleType="fitXY"
-                 android:src="@drawable/osss" />
-         </RelativeLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="15dp">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <!--            Header-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <GridLayout
-                android:id="@+id/mainGrid"
+            </RelativeLayout>
+            <!--            Header-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="210dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/osss" />
+            </RelativeLayout>
+            <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="9"
-                android:alignmentMode="alignMargins"
-                android:columnCount="1"
-                android:columnOrderPreserved="false"
-                android:rowCount="2">
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-                <androidx.cardview.widget.CardView
+                <!--        awal isi-->
+                <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
 
-                    <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginRight="12dp"
-                        android:layout_marginTop="12dp"
-                        android:src="@drawable/osis"/>
+                    <GridLayout
+                        android:id="@+id/mainGrid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="9"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="1"
+                        android:columnOrderPreserved="false"
+                        android:rowCount="2">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
-                        android:text="OGANISASI OSIS"
-                        android:textColor="#000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_marginTop="75dp"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="15sp"
-                            android:textStyle="bold"
-                            android:text="PENGERTIAN OSIS "
-                            android:textColor="#000"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <ImageView
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginTop="12dp"
+                                android:src="@drawable/osis"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="80dp"
+                                android:layout_marginTop="20dp"
+                                android:text="ORGANISASI OSIS"
+                                android:textColor="#000"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_marginTop="75dp"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:text="PENGERTIAN OSIS "
+                                    android:textColor="#000"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:text="Secara Organis" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS), yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian/alat dari organisasi lain yang ada di luar sekolah." />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:text="Secara Fungsional" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."/>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="5dp"
                             android:layout_marginRight="12dp"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:text="Secara Organis" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="10sp"
-                            android:textStyle="normal"
-                            android:text="OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS), yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian/alat dari organisasi lain yang ada di luar sekolah." />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:text="Secara Fungsional" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="10sp"
-                            android:textStyle="normal"
-                            android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."/>
+                            android:layout_marginBottom="12dp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"
+                                    android:text="TUJUAN DAN TUGAS OSIS "
+                                    android:textColor="#000"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    android:text="Tujuan Osis" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="1. Meningkatkan generasi penerus yang beriman dan bertaqwa"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="2. Memahami, menghargai lingkungan hidup dan nilai-nilai moral dalam mengambil keputusan yang tepat"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="3. Membangun landasan kepribadian yang kuat dan menghargai HAM dalam kontek kemajuan budaya bangsa"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="4. Membangun, mengembangkan wawasan kebangsaan dan rasa cinta tanah air dalam era globalisasi"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text="5. Memperdalam sikap sportif, jujur, disiplin, bertanggung jawab, dan kerjasama secara mandiri, berpikir logis dan demokratis"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="13sp"
+                                    android:textStyle="normal"
+                                    android:text=""/>
 
 
-                     </LinearLayout>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold"
+                                    android:text="Secara Fungsional" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="12dp"
+                                    android:textSize="10sp"
+                                    android:textStyle="normal"
+                                    android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."/>
 
-                 </androidx.cardview.widget.CardView>
+                            </LinearLayout>
 
+                        </androidx.cardview.widget.CardView>
+                    </GridLayout>
 
-            </GridLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="15dp">
-
-            <GridLayout
-                android:id="@+id/mainGrid"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="9"
-                android:alignmentMode="alignMargins"
-                android:columnCount="1"
-                android:columnOrderPreserved="false"
-                android:rowCount="2">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_rowWeight="1"
-                    android:layout_columnWeight="1"
-                    android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginRight="12dp"
-                    android:layout_marginBottom="12dp"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp">
-
-                    <ImageView
-                        android:layout_width="55dp"
-                        android:layout_height="55dp"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginRight="12dp"
-                        android:layout_marginTop="12dp"
-                        android:src="@drawable/osis"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="80dp"
-                        android:layout_marginTop="20dp"
-                        android:text="OGANISASI OSIS"
-                        android:textColor="#000"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_marginTop="75dp"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="15sp"
-                            android:textStyle="bold"
-                            android:text="PENGERTIAN OSIS "
-                            android:textColor="#000"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:text="Secara Organis" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="10sp"
-                            android:textStyle="normal"
-                            android:text="OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS), yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian/alat dari organisasi lain yang ada di luar sekolah." />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12sp"
-                            android:textStyle="bold"
-                            android:text="Secara Fungsional" />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="10sp"
-                            android:textStyle="normal"
-                            android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."/>
-
-
-                    </LinearLayout>
-
-                </androidx.cardview.widget.CardView>
-
-
-            </GridLayout>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

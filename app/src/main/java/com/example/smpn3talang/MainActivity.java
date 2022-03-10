@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void guru(View view) {
-
+        Intent intent = new Intent(MainActivity.this, GuruActivity.class);
+        startActivity(intent);
     }
 
     public void ekskul(View view) {
@@ -29,9 +30,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fasilitas(View view) {
+        Intent intent = new Intent(MainActivity.this, FasilitasActivity.class);
+        startActivity(intent);
     }
 
     public void prestasi(View view) {
+        Intent intent = new Intent(MainActivity.this, PrestasiActivity.class);
+        startActivity(intent);
     }
 
     public void perpus(View view) {

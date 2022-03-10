@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Perpus">
+    tools:context=".PrestasiActivity">
 
     <FrameLayout
     android:layout_width="match_parent"
@@ -20,26 +20,34 @@
             android:orientation="vertical">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="195dp">
+                android:layout_height="match_parent">
 
-
-                <com.smarteist.autoimageslider.SliderView
-                    android:id="@+id/image_slider"
-                    android:layout_width="wrap_content"
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:sliderAnimationDuration="1200"
-                    app:sliderAutoCycleDirection="back_and_forth"
-                    app:sliderAutoCycleEnabled="true"
-                    app:sliderIndicatorAnimationDuration="700"
-                    app:sliderIndicatorGravity="center_horizontal|bottom"
-                    app:sliderIndicatorMargin="15dp"
-                    app:sliderIndicatorOrientation="horizontal"
-                    app:sliderIndicatorPadding="3dp"
-                    app:sliderIndicatorRadius="2dp"
-                    app:sliderIndicatorSelectedColor="#5A5A5A"
-                    app:sliderIndicatorUnselectedColor="#FFF"
-                    app:sliderScrollTimeInSec="2"
-                    app:sliderStartAutoCycle="true" />
+                    app:cardElevation="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="40dp"
+                        android:text="KATALOG BUKU KELAS VII"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:text="DAFTAR BUKU"
+                        android:textColor="#FF0000"
+                        android:textStyle="bold"/>
+
+                </androidx.cardview.widget.CardView>
 
             </RelativeLayout>
 
@@ -65,7 +73,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:onClick="buku7"
+                            android:onClick="album7"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -97,7 +105,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="50dp"
-                                    android:text="BUKU KELAS VII">
+                                    android:text="ALBUM">
 
                                 </TextView>
 
@@ -109,7 +117,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:onClick="buku8"
+                            android:onClick="album8"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -153,7 +161,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:onClick="buku9"
+                            android:onClick="album9"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -206,4 +214,4 @@
     </ScrollView>
 </FrameLayout>
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

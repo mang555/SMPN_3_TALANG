@@ -286,13 +286,13 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:onClick="prestasi"
-                                android:src="@drawable/medal" />
+                                android:src="@drawable/glr" />
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
                                 android:gravity="center"
-                                android:text="PRESTASI"
+                                android:text="GALERI"
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
