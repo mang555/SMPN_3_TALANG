@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#A787CEEB">
+    tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -49,6 +48,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
+                        android:onClick="profil"
                         android:padding="1dp"
                         app:cardCornerRadius="15dp">
 
@@ -62,7 +62,6 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:onClick="profil"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/prfl" />
                             <TextView
@@ -91,6 +90,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="guru"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -103,7 +103,6 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:onClick="guru"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/tchr" />
                             <TextView
@@ -140,6 +139,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="ekskul"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -152,7 +152,6 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:onClick="ekskul"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/sprt" />
                             <TextView
@@ -181,6 +180,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="fasilitas"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -193,7 +193,6 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:onClick="fasilitas"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/build" />
                             <TextView
@@ -231,6 +230,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="perpus"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -243,7 +243,6 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
-                                android:onClick="perpus"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/prps" />
                             <TextView
@@ -272,6 +271,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="prestasi"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -285,7 +285,6 @@
                                 android:layout_height="77dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:onClick="prestasi"
                                 android:src="@drawable/glr" />
                             <TextView
                                 android:layout_width="wrap_content"
@@ -308,4 +307,4 @@
 
     </ScrollView>
 
-</LinearLayout>
+</RelativeLayout>

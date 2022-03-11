@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PrestasiActivity">
+    tools:context=".PrestasiActivity"
+    android:background="@drawable/bgbbbg">
 
     <FrameLayout
     android:layout_width="match_parent"
@@ -20,12 +21,9 @@
             android:orientation="vertical">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
 
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:cardElevation="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -38,16 +36,9 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="25dp"
-                        android:text="DAFTAR BUKU"
-                        android:textColor="#FF0000"
-                        android:textStyle="bold"/>
 
-                </androidx.cardview.widget.CardView>
+
+
 
             </RelativeLayout>
 
