@@ -26,10 +26,10 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="210dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/osss" />
+                    android:src="@drawable/eskl" />
             </RelativeLayout>
             <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
@@ -39,14 +39,14 @@
                 <!--        awal isi-->
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:padding="15dp">
 
                     <GridLayout
                         android:id="@+id/mainGrid"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
                         android:layout_weight="9"
                         android:alignmentMode="alignMargins"
                         android:columnCount="1"
@@ -71,14 +71,14 @@
                                 android:layout_marginLeft="12dp"
                                 android:layout_marginRight="12dp"
                                 android:layout_marginTop="12dp"
-                                android:src="@drawable/osis"/>
+                                android:src="@drawable/futsal"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="80dp"
                                 android:layout_marginTop="20dp"
-                                android:text="ORGANISASI OSIS"
+                                android:text="ORGANISASI FUTSAL"
                                 android:textColor="#000"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -93,41 +93,47 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="PENGERTIAN OSIS "
+                                    android:text="PENGERTIAN FUTSAL"
                                     android:textColor="#000"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="14sp"
                                     android:textStyle="bold"
                                     android:text="Secara Organis" />
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
                                     android:text="OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS), yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian/alat dari organisasi lain yang ada di luar sekolah." />
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="14sp"
                                     android:textStyle="bold"
                                     android:text="Secara Fungsional" />
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
                                     android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."/>
@@ -138,7 +144,7 @@
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
-                            android:layout_height="170dp"
+                            android:layout_height="wrap_content"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -148,92 +154,69 @@
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
-                                android:layout_height="match_parent"
+                                android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
+                                    android:layout_marginTop="15dp"
                                     android:textSize="15sp"
                                     android:textStyle="bold"
-                                    android:text="TUJUAN DAN TUGAS OSIS "
+                                    android:text="TUJUAN DAN TUGAS FUTSAL "
                                     android:textColor="#000"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="14sp"
                                     android:textStyle="bold"
                                     android:text="Tujuan Osis" />
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
                                     android:text="1. Meningkatkan generasi penerus yang beriman dan bertaqwa"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
                                     android:text="2. Memahami, menghargai lingkungan hidup dan nilai-nilai moral dalam mengambil keputusan yang tepat"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
                                     android:text="3. Membangun landasan kepribadian yang kuat dan menghargai HAM dalam kontek kemajuan budaya bangsa"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
                                     android:text="4. Membangun, mengembangkan wawasan kebangsaan dan rasa cinta tanah air dalam era globalisasi"/>
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginRight="15dp"
                                     android:textSize="13sp"
                                     android:textStyle="normal"
                                     android:text="5. Memperdalam sikap sportif, jujur, disiplin, bertanggung jawab, dan kerjasama secara mandiri, berpikir logis dan demokratis"/>
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
-                                    android:textSize="13sp"
-                                    android:textStyle="normal"
-                                    android:text=""/>
-
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
-                                    android:textSize="12sp"
-                                    android:textStyle="bold"
-                                    android:text="Secara Fungsional" />
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="12dp"
-                                    android:textSize="10sp"
-                                    android:textStyle="normal"
-                                    android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."/>
 
                             </LinearLayout>
 

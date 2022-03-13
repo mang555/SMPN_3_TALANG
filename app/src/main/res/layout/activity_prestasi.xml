@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PrestasiActivity"
-    android:background="@drawable/bgbbbg">
+    android:background="@drawable/bg">
 
     <FrameLayout
     android:layout_width="match_parent"
@@ -21,26 +21,20 @@
             android:orientation="vertical">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal">
+                android:layout_height="150dp">
 
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="30dp"
-                        android:layout_marginBottom="40dp"
-                        android:text="KATALOG BUKU KELAS VII"
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-
-
-
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="ALBUM SMP 3 TALANG"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
             </RelativeLayout>
+
+
 
             <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
@@ -79,16 +73,17 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:orientation="horizontal"
-                                android:background="#9900BCD4">
+                                android:onClick="album7"
+                                android:background="#D02196F3">
 
                                 <ImageView
                                     android:layout_width="100dp"
-                                    android:layout_height="140dp"
+                                    android:layout_height="100dp"
                                     android:layout_margin="10dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/vii">
+                                    android:src="@drawable/logo">
                                 </ImageView>
 
                                 <TextView
@@ -96,7 +91,10 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="50dp"
-                                    android:text="ALBUM">
+                                    android:layout_marginRight="50dp"
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:text="ALBUM HUT SMP">
 
                                 </TextView>
 
@@ -108,7 +106,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:onClick="album8"
+                            android:onClick="buku8"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -123,7 +121,8 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:orientation="horizontal"
-                                android:background="#BAE379F4">
+                                android:onClick="album8"
+                                android:background="#D02196F3">
 
                                 <ImageView
                                     android:layout_width="100dp"
@@ -132,7 +131,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/viii">
+                                    android:src="@drawable/pram">
                                 </ImageView>
 
                                 <TextView
@@ -140,7 +139,10 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="50dp"
-                                    android:text="BUKU KELAS VIII">
+                                    android:layout_marginRight="50dp"
+                                    android:textStyle="bold"
+                                    android:textSize="15dp"
+                                    android:text="ALBUM PRAMUKA">
 
                                 </TextView>
 
@@ -152,7 +154,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
-                            android:onClick="album9"
+                            android:onClick="buku9"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -166,16 +168,17 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:orientation="horizontal"
-                                android:background="#C3F34D88">
+                                android:onClick="album9"
+                                android:background="#D02196F3">
 
                                 <ImageView
                                     android:layout_width="100dp"
-                                    android:layout_height="140dp"
+                                    android:layout_height="160dp"
                                     android:layout_margin="10dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/ix">
+                                    android:src="@drawable/pmr">
                                 </ImageView>
 
                                 <TextView
@@ -183,7 +186,9 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="50dp"
-                                    android:text="BUKU KELAS IX">
+                                    android:textSize="15dp"
+                                    android:textStyle="bold"
+                                    android:text="ALBUM PMR">
 
                                 </TextView>
 
@@ -191,7 +196,53 @@
 
                         </androidx.cardview.widget.CardView>
                         <!--                            PEMBUKA MENU 4-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:onClick="buku8"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
 
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:onClick="album8"
+                                android:background="#D02196F3">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="80dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/logohut">
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginRight="50dp"
+                                    android:textStyle="bold"
+                                    android:textSize="15dp"
+                                    android:text="ALBUM HUT RI">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
 
                     </GridLayout>
 

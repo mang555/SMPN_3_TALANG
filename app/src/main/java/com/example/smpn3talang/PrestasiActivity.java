@@ -15,12 +15,12 @@ public class PrestasiActivity extends AppCompatActivity {
     }
 
     public void album8(View view) {
-        Intent intent = new Intent(PrestasiActivity.this, album7Activity.class);
+        Intent intent = new Intent(PrestasiActivity.this, album8Activity.class);
         startActivity(intent);
     }
 
     public void album7(View view) {
-        Intent intent = new Intent(PrestasiActivity.this, album8Activity.class);
+        Intent intent = new Intent(PrestasiActivity.this, album7Activity.class);
         startActivity(intent);
     }
 

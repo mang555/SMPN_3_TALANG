@@ -106,8 +106,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Nama Sekolah : SMP NEGERI 3 TALANG "
@@ -116,8 +117,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="NPSN : 20325332"
@@ -126,8 +127,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Alamat :  Jl. Projosumarto 1 No.Km 5, Kaldawa, Kaladawa, Kec. Talang, Kabupaten Tegal, Jawa Tengah 52193"
@@ -136,8 +137,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Kode Pos : 52193 "
@@ -146,8 +147,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Desa / Kelurahan : Panggung"
@@ -156,8 +157,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Kecamatan / Kota (LN) : Kec. Talang"
@@ -166,8 +167,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Kab. / Kota / Negara (LN) : Kabupaten Tegal"
@@ -176,8 +177,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Provinsi / Luar Negeri : Jawa Tengah"
@@ -186,8 +187,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Status Sekolah : Negeri"
@@ -196,8 +197,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Waktu Penyenggaraan : 6 / pagi"
@@ -206,8 +207,8 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="Jenjang Pendidikan : SMP"
@@ -216,8 +217,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text=""
@@ -256,7 +258,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="VISI DAN MISI SMK YPT KOTA TEGAL"/>
+                        android:text="VISI DAN MISI SMPN 3 TALANG"/>
 
 
 
@@ -269,8 +271,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="VISI : SMK YPT TERDEPAN DALAM MENYIAPKAN TENAGA KERJA TERAMPIL, BERKUALITAS, BERIMAN DAN BERTAKWA"
@@ -279,8 +282,9 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginRight="15dp"
                             android:textSize="12sp"
                             android:textStyle="bold"
                             android:text="MISI : a.	Melatih dan mengembangkan SDM yang terampil dan mandiri.

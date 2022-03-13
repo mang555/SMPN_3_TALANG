@@ -12,8 +12,10 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class Eskul extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.hdrsp,
-            R.drawable.hdr,
+    int[] images = {R.drawable.sldrvw,
+            R.drawable.sldrvw1,
+            R.drawable.viewsld,
+            R.drawable.viewsld1
 
     };
 

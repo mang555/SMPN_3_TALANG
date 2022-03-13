@@ -2,8 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -21,6 +22,7 @@
 
             </RelativeLayout>
             <!--            Header-->
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -64,6 +66,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/prfl" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -72,7 +75,7 @@
                                 android:text="PROFIL"
                                 android:textColor="#000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -89,8 +92,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
-                        android:padding="1dp"
                         android:onClick="guru"
+                        android:padding="1dp"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -105,6 +108,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/tchr" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -113,7 +117,7 @@
                                 android:text="GURU DAN STAF"
                                 android:textColor="#000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -138,8 +142,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
-                        android:padding="1dp"
                         android:onClick="ekskul"
+                        android:padding="1dp"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -154,6 +158,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/sprt" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -162,7 +167,7 @@
                                 android:text="ESKUL"
                                 android:textColor="#000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -179,8 +184,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
-                        android:padding="1dp"
                         android:onClick="fasilitas"
+                        android:padding="1dp"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -195,6 +200,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/build" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -203,7 +209,7 @@
                                 android:text="FASILITAS"
                                 android:textColor="#000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -229,8 +235,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
-                        android:padding="1dp"
                         android:onClick="perpus"
+                        android:padding="1dp"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -245,6 +251,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/prps" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -253,7 +260,7 @@
                                 android:text="E-PERPUS"
                                 android:textColor="#000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
@@ -270,8 +277,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
-                        android:padding="1dp"
                         android:onClick="prestasi"
+                        android:padding="1dp"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -286,6 +293,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/glr" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -294,7 +302,7 @@
                                 android:text="GALERI"
                                 android:textColor="#000"
                                 android:textSize="20dp"
-                                android:textStyle="bold"/>
+                                android:textStyle="bold" />
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>

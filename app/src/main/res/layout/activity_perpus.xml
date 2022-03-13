@@ -80,7 +80,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:orientation="horizontal"
-                                android:background="#9900BCD4">
+                                android:background="#D02196F3">
 
                                 <ImageView
                                     android:layout_width="100dp"
@@ -124,7 +124,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:orientation="horizontal"
-                                android:background="#BAE379F4">
+                                android:background="#D02196F3">
 
                                 <ImageView
                                     android:layout_width="100dp"
@@ -167,7 +167,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:orientation="horizontal"
-                                android:background="#C3F34D88">
+                                android:background="#D02196F3">
 
                                 <ImageView
                                     android:layout_width="100dp"

@@ -84,7 +84,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
                                     android:orientation="horizontal"
-                                    android:background="#C0FFD740">
+                                    android:background="#D02196F3">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -129,7 +129,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
                                     android:orientation="horizontal"
-                                    android:background="#BA64FFDA">
+                                    android:background="#D02196F3">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -174,7 +174,7 @@
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
                                     android:orientation="horizontal"
-                                    android:background="#A98970BF">
+                                    android:background="#D02196F3">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -219,11 +219,11 @@
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
                                     android:orientation="horizontal"
-                                    android:background="#9F9B9B">
+                                    android:background="#D02196F3">
 
                                     <ImageView
                                         android:layout_width="100dp"
-                                        android:layout_height="100dp"
+                                        android:layout_height="150dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
