@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PrestasiActivity"
-    android:background="@drawable/bg">
+    tools:context=".PrestasiActivity">
 
     <FrameLayout
     android:layout_width="match_parent"
@@ -21,17 +20,25 @@
             android:orientation="vertical">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp">
+                android:layout_height="195dp">
 
-                <TextView
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/image_slider"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:gravity="center_horizontal|center_vertical"
-                    android:text="ALBUM SMP 3 TALANG"
-                    android:textColor="#000"
-                    android:textSize="25sp"
-                    android:textStyle="bold" />
+                    android:layout_height="188dp"
+                    app:sliderAnimationDuration="1200"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderAutoCycleEnabled="true"
+                    app:sliderIndicatorAnimationDuration="700"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="2"
+                    app:sliderStartAutoCycle="true" />
             </RelativeLayout>
 
 
@@ -114,7 +121,8 @@
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
                             app:cardCornerRadius="8dp"
-                            app:cardElevation="8dp">
+                            app:cardElevation="8dp"
+                            tools:ignore="OnClick">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -162,7 +170,8 @@
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
                             app:cardCornerRadius="8dp"
-                            app:cardElevation="8dp">
+                            app:cardElevation="8dp"
+                            tools:ignore="OnClick">
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -207,7 +216,8 @@
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
                             app:cardCornerRadius="8dp"
-                            app:cardElevation="8dp">
+                            app:cardElevation="8dp"
+                            tools:ignore="OnClick">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
