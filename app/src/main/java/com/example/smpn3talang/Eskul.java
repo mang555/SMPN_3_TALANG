@@ -33,10 +33,6 @@ public class Eskul extends AppCompatActivity {
         sliderView.startAutoCycle();
     }
 
-    public void osis(View view) {
-        Intent intent = new Intent(Eskul.this, OsisActivity.class);
-        startActivity(intent);
-    }
 
     public void pramuka(View view) {
         Intent intent = new Intent(Eskul.this, PramukaActivity.class);
