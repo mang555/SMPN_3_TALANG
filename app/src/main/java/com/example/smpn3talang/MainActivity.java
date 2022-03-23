@@ -45,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void absen(View view) {
+        Intent intent = new Intent(MainActivity.this, AbsenActivity.class);
+        startActivity(intent);
+    }
+
     public void GGL(View view) {
         goToUrl("https://smp3talang.com/");
     }
@@ -65,4 +70,6 @@ public class MainActivity extends AppCompatActivity {
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(launchBrowser);
     }
+
+
 }
