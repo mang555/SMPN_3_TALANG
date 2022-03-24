@@ -4,21 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_absen.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_absen2.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_admin_absen.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_album7.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_buku7.xml" value="0.18" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_buku8.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_buku9.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_eskul.xml" value="0.15" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_fasilitas.xml" value="0.11979166666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_futsal.xml" value="0.14166666666666666" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_guru.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_guru.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_osis.xml" value="0.36412315930388217" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_perpus.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_pmr.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_pramuka.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_prestasi.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_profile.xml" value="0.18" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_slideritem.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_splash_screen.xml" value="0.14" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/activity_voli.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/SMPN3TALANG/app/src/main/res/layout/slider_item.xml" value="0.1" />
       </map>
     </option>

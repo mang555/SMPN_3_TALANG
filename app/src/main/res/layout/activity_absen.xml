@@ -1,14 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AbsenActivity">
 
-    <WebView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/webview"/>
+        android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+
+                    <GridLayout
+                        android:id="@+id/mainGrid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="9"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="1"
+                        android:columnOrderPreserved="false">
+                        <!--                            PEMBUKA MENU1-->
+
+                        <!--                            PENUTUP MENU1-->
+                        <!--                            PEMBUKA MENU2-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:onClick="absen"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/admin">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:textSize="30dp"
+                                    android:text="ADMIN">
+
+                                </TextView>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <!--                            PENUTUP MENU2-->
+                        <!--                            PEMBUKA MENU3-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="200dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:onClick="admin"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/pmr">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:textStyle="bold"
+                                    android:textSize="20dp"
+                                    android:text="ORGANISASI      PMR">
+
+                                </TextView>
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+                        <!--                            PENUTUP MENU3-->
+                    </GridLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </FrameLayout>
+
+</RelativeLayout>
