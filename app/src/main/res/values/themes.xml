@@ -2,13 +2,14 @@
     <!-- Base application theme. -->
     <style name="Theme.SMPN3TALANG" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#2196F3</item>
-        <item name="colorPrimaryVariant">#1976D2</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryVariant">#455A64</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="colorOnPrimary">@android:color/transparent</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">#60708B</item>
         <item name="colorSecondaryVariant">#455A64</item>
-        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnSecondary">@android:color/transparent</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->

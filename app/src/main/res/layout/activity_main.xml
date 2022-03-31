@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient_5"
+    android:background="@drawable/snow_bg"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -16,9 +16,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello"
+            android:text="Welcome,"
             android:textColor="@color/white"
-            android:textSize="40dp"
+            android:textSize="35dp"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -29,9 +29,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reader"
+                android:text="SMPN 3 Talang"
                 android:textColor="@color/white"
-                android:textSize="40dp"
+                android:textSize="35dp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -73,14 +73,13 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:background="@color/white"
-                        app:cardCornerRadius="10dp">
+                        app:cardCornerRadius="15dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@color/teal_200"
-                            android:padding="8dp"
-                            android:src="@drawable/logo" />
+                            android:background="@color/white"
+                            android:src="@drawable/prfl" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -89,7 +88,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="All \nCategory"
+                        android:text="Profil  \Sekolah"
                         android:textColor="@color/white"
                         android:textSize="25sp" />
 
@@ -125,22 +124,21 @@
                     android:onClick="guru"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/gradient_2"
+                    android:background="@drawable/gradient_7"
                     android:orientation="vertical"
                     android:padding="15dp">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@color/teal_200"
-                        app:cardCornerRadius="10dp">
+                        android:background="@color/white"
+                        app:cardCornerRadius="15dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@color/teal_200"
-                            android:padding="8dp"
-                            android:src="@drawable/logo" />
+                            android:background="@color/white"
+                            android:src="@drawable/teacher" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -149,7 +147,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="All \nCategory"
+                        android:text="Guru dan \nStaff"
                         android:textColor="@color/white"
                         android:textSize="25sp" />
 
@@ -204,7 +202,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lines="2"
-                            android:text="All \nCategory"
+                            android:text="Absen \nList"
                             android:textColor="@color/white"
                             android:textSize="25sp" />
 
@@ -226,12 +224,20 @@
                         android:layout_gravity="center"
                         android:layout_marginRight="70dp">
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:padding="8dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/logo" />
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            app:cardCornerRadius="12dp">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:padding="8dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/tasks" />
+
+                        </androidx.cardview.widget.CardView>
 
 
                     </LinearLayout>
@@ -271,15 +277,14 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@color/teal_200"
-                        app:cardCornerRadius="10dp">
+                        android:background="@color/white"
+                        app:cardCornerRadius="15dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@color/teal_200"
-                            android:padding="8dp"
-                            android:src="@drawable/logo" />
+                            android:background="@color/white"
+                            android:src="@drawable/football" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -288,7 +293,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="All \nCategory"
+                        android:text="Daftar \nEskul"
                         android:textColor="@color/white"
                         android:textSize="25sp" />
 
@@ -328,15 +333,14 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@color/teal_200"
+                        android:background="@color/white"
                         app:cardCornerRadius="10dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@color/teal_200"
-                            android:padding="8dp"
-                            android:src="@drawable/logo" />
+                            android:background="@color/white"
+                            android:src="@drawable/gallery" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -345,7 +349,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="All \nCategory"
+                        android:text="Daftar \nAlbum"
                         android:textColor="@color/white"
                         android:textSize="25sp" />
 
@@ -386,22 +390,21 @@
                     android:onClick="perpus"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/gradient_7"
+                    android:background="@drawable/gradient_2"
                     android:orientation="vertical"
                     android:padding="15dp">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@color/teal_200"
-                        app:cardCornerRadius="10dp">
+                        android:background="@color/white"
+                        app:cardCornerRadius="3dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@color/teal_200"
-                            android:padding="8dp"
-                            android:src="@drawable/logo" />
+                            android:background="@color/white"
+                            android:src="@drawable/bookk" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -410,7 +413,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="All \nCategory"
+                        android:text="E- \nPerpus"
                         android:textColor="@color/white"
                         android:textSize="25sp" />
 
@@ -450,15 +453,14 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@color/teal_200"
-                        app:cardCornerRadius="10dp">
+                        android:background="@color/white"
+                        app:cardCornerRadius="5dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@color/teal_200"
-                            android:padding="8dp"
-                            android:src="@drawable/logo" />
+                            android:background="@color/white"
+                            android:src="@drawable/buildingg" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -467,7 +469,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="All \nCategory"
+                        android:text="Fasilitas \nSekolah"
                         android:textColor="@color/white"
                         android:textSize="25sp" />
 
