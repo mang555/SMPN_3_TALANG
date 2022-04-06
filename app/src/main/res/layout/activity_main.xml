@@ -13,43 +13,44 @@
         android:orientation="vertical"
         android:padding="15dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Welcome,"
-            android:textColor="@color/white"
-            android:textSize="35dp"
-            android:textStyle="bold" />
-
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
             android:orientation="horizontal">
-
-            <TextView
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="SMPN 3 Talang"
-                android:textColor="@color/white"
-                android:textSize="35dp"
-                android:textStyle="bold" />
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="10sp"
-                android:src="@drawable/hello" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome,"
+                    android:textColor="@color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:lines="2"
-                android:text="Daftar \nEskul"
-                android:textColor="@color/white"
-                android:textSize="25sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SMPN 3 Talang"
+                    android:textColor="@color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_fileName="yellow.json"/>
 
         </LinearLayout>
+
+
+
 
         <!--rgsdy-->
         <LinearLayout
@@ -67,8 +68,8 @@
                 android:elevation="5dp"
                 android:focusable="true"
                 app:cardCornerRadius="10sp"
-                app:cardElevation="5dp"
-                app:cardMaxElevation="5dp">
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
 
                 <LinearLayout
                     android:onClick="profil"
@@ -126,8 +127,8 @@
                 android:elevation="5dp"
                 android:focusable="true"
                 app:cardCornerRadius="10sp"
-                app:cardElevation="5dp"
-                app:cardMaxElevation="5dp">
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
 
                 <LinearLayout
                     android:onClick="guru"
@@ -189,8 +190,8 @@
                 android:elevation="5dp"
                 android:focusable="true"
                 app:cardCornerRadius="10sp"
-                app:cardElevation="5dp"
-                app:cardMaxElevation="5dp">
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
 
 
                 <LinearLayout
@@ -244,6 +245,7 @@
                                 android:layout_height="match_parent"
                                 android:padding="8dp"
                                 android:layout_gravity="center"
+                                android:background="@color/white"
                                 android:src="@drawable/tasks" />
 
                         </androidx.cardview.widget.CardView>
@@ -272,8 +274,8 @@
                 android:elevation="5dp"
                 android:focusable="true"
                 app:cardCornerRadius="10sp"
-                app:cardElevation="5dp"
-                app:cardMaxElevation="5dp">
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
 
                 <LinearLayout
                     android:onClick="ekskul"
@@ -328,8 +330,8 @@
                 android:elevation="5dp"
                 android:focusable="true"
                 app:cardCornerRadius="10sp"
-                app:cardElevation="5dp"
-                app:cardMaxElevation="5dp">
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
 
                 <LinearLayout
                     android:onClick="prestasi"
@@ -342,7 +344,6 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@color/white"
                         app:cardCornerRadius="10dp">
 
                         <ImageView
@@ -392,8 +393,8 @@
                 android:elevation="5dp"
                 android:focusable="true"
                 app:cardCornerRadius="10sp"
-                app:cardElevation="5dp"
-                app:cardMaxElevation="5dp">
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
 
                 <LinearLayout
                     android:onClick="perpus"
@@ -406,7 +407,6 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@color/white"
                         app:cardCornerRadius="3dp">
 
                         <ImageView
@@ -448,8 +448,8 @@
                 android:elevation="5dp"
                 android:focusable="true"
                 app:cardCornerRadius="10sp"
-                app:cardElevation="5dp"
-                app:cardMaxElevation="5dp">
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
 
                 <LinearLayout
                     android:onClick="fasilitas"
@@ -462,7 +462,6 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="30dp"
                         android:layout_height="30dp"
-                        android:background="@color/white"
                         app:cardCornerRadius="5dp">
 
                         <ImageView

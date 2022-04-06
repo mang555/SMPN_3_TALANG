@@ -25,6 +25,6 @@ public class AdminAbsenActivity extends AppCompatActivity {
 //        untuk menambah scrollbar
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("http://presensi-smpn3talang.epizy.com/");
+        webView.loadUrl("http://presensi-smpn3talang.epizy.com/admin");
     }
 }

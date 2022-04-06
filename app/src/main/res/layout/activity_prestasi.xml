@@ -184,7 +184,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/pmr">
+                                    android:src="@drawable/pmrrr">
                                 </ImageView>
 
                                 <TextView

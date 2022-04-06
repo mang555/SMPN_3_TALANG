@@ -58,6 +58,7 @@
                             android:layout_marginTop="3dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
+                            android:background="@color/white"
                             app:cardCornerRadius="8dp"
                             app:cardElevation="8dp">
 
@@ -67,7 +68,7 @@
                                 android:layout_marginLeft="12dp"
                                 android:layout_marginRight="12dp"
                                 android:layout_marginTop="12dp"
-                                android:src="@drawable/vly"/>
+                                android:src="@drawable/vlyyyy"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -146,7 +147,10 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginTop="5dp"
                             android:layout_marginRight="12dp"
-                            android:layout_marginBottom="12dp">
+                            android:layout_marginBottom="12dp"
+                            android:background="@color/white"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
 
                             <LinearLayout
                                 android:layout_width="wrap_content"

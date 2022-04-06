@@ -9,9 +9,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="70dp"
         android:orientation="vertical"
-        android:background="@drawable/gradient_5"
+        android:background="#3A383A"
         android:padding="5dp">
 
         <TextView
@@ -50,9 +50,9 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/gradient_2"
+                android:onClick="pramuka"
                 android:orientation="horizontal"
-                android:padding="3dp"
-                android:onClick="pramuka">
+                android:padding="3dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -96,8 +96,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/gradient_9"
-                android:orientation="horizontal"
                 android:onClick="pmr"
+                android:orientation="horizontal"
                 android:padding="3dp">
 
                 <LinearLayout
@@ -143,8 +143,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/gradient_1"
-                android:orientation="horizontal"
                 android:onClick="bulutangkis"
+                android:orientation="horizontal"
                 android:padding="3dp">
 
                 <LinearLayout
@@ -190,9 +190,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/gradient_4"
-                android:orientation="horizontal"
+                android:background="@drawable/gradient_8"
                 android:onClick="futsal"
+                android:orientation="horizontal"
                 android:padding="3dp">
 
                 <LinearLayout
@@ -205,7 +205,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="15dp"
                         android:layout_marginTop="10dp"
-                        android:text="Pramuka"
+                        android:text="Futsal"
                         android:textColor="@color/white"
                         android:textSize="23sp"
                         android:textStyle="bold" />

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/snow_bg"
     tools:context=".Perpus">
 
     <FrameLayout
@@ -20,7 +21,11 @@
             android:orientation="vertical">
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="195dp">
+                android:layout_height="195dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
 
 
                 <com.smarteist.autoimageslider.SliderView
@@ -63,8 +68,8 @@
 
                         <!--                            PEMBUKA MENU1-->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
                             android:onClick="buku7"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -79,23 +84,25 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:background="@color/white">
 
                                 <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="140dp"
+                                    android:layout_width="140dp"
+                                    android:layout_height="130dp"
                                     android:layout_margin="10dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/vii">
+                                    android:layout_marginTop="30dp"
+                                    android:src="@drawable/tuju">
                                 </ImageView>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:textColor="@color/black"
                                     android:text="BUKU KELAS VII">
 
                                 </TextView>
@@ -106,8 +113,8 @@
                         </androidx.cardview.widget.CardView>
                         <!--                            PEMBUKA MENU2-->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
                             android:onClick="buku8"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -122,23 +129,25 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:background="@color/white">
 
                                 <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="140dp"
+                                    android:layout_width="140dp"
+                                    android:layout_height="130dp"
                                     android:layout_margin="10dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/viii">
+                                    android:src="@drawable/delp">
                                 </ImageView>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
+                                    android:textColor="@color/black"
+                                    android:layout_marginLeft="20dp"
                                     android:text="BUKU KELAS VIII">
 
                                 </TextView>
@@ -149,8 +158,8 @@
                         </androidx.cardview.widget.CardView>
                         <!--                            PEMBUKA MENU 3-->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
                             android:onClick="buku9"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -164,23 +173,25 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
-                                android:orientation="horizontal">
+                                android:orientation="horizontal"
+                                android:background="@color/white">
 
                                 <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="140dp"
+                                    android:layout_width="140dp"
+                                    android:layout_height="130dp"
                                     android:layout_margin="10dp"
                                     android:layout_gravity="center"
                                     android:layout_marginLeft="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/ix">
+                                    android:src="@drawable/semb">
                                 </ImageView>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:textColor="@color/black"
                                     android:text="BUKU KELAS IX">
 
                                 </TextView>
