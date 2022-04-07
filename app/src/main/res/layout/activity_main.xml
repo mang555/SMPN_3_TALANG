@@ -74,7 +74,7 @@
                 <LinearLayout
                     android:onClick="profil"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/gradient_1"
                     android:orientation="vertical"
                     android:padding="15dp">

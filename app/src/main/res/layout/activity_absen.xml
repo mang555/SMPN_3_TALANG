@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/snow_bg"
     tools:context=".AbsenActivity">
 
     <FrameLayout
@@ -18,7 +19,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -120,7 +121,8 @@
                                     android:layout_marginLeft="50dp"
                                     android:textStyle="bold"
                                     android:textSize="30dp"
-                                    android:text="User">
+                                    android:textColor="@color/black"
+                                    android:text="USER">
 
                                 </TextView>
                             </LinearLayout>
