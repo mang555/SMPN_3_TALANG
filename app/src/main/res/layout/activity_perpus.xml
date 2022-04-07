@@ -19,14 +19,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <RelativeLayout
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="195dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp">
-
+                android:padding="10dp"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp">
 
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/image_slider"
@@ -46,7 +44,7 @@
                     app:sliderScrollTimeInSec="2"
                     app:sliderStartAutoCycle="true" />
 
-            </RelativeLayout>
+            </androidx.cardview.widget.CardView>
 
             <androidx.core.widget.NestedScrollView
                 android:layout_width="match_parent"
