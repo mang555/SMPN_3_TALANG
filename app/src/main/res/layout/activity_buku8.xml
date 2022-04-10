@@ -36,7 +36,7 @@
                     android:layout_marginTop="30dp"
                     android:layout_marginBottom="10dp"
                     android:gravity="center_vertical"
-                    android:text="KATALOG BUKU KELAS VII"
+                    android:text="KATALOG BUKU KELAS VIII"
                     android:textColor="#000"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -75,7 +75,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@color/white"
-                                app:cardCornerRadius="15dp">
+                                app:cardCornerRadius="12dp">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -83,6 +83,7 @@
                                     android:autoLink="web"
                                     android:background="@color/white"
                                     android:clickable="true"
+                                    android:onClick="mat8s1"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -98,7 +99,7 @@
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
                                             android:layout_margin="10dp"
-                                            android:src="@drawable/matematika7" />
+                                            android:src="@drawable/mtk8" />
 
                                     </androidx.cardview.widget.CardView>
 
@@ -146,6 +147,7 @@
                                     android:autoLink="web"
                                     android:background="@color/white"
                                     android:clickable="true"
+                                    android:onClick="mat8s2"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -161,7 +163,7 @@
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
                                             android:layout_margin="10dp"
-                                            android:src="@drawable/matematika7" />
+                                            android:src="@drawable/mtk8" />
 
                                     </androidx.cardview.widget.CardView>
 
@@ -215,6 +217,7 @@
                                     android:autoLink="web"
                                     android:background="@color/white"
                                     android:clickable="true"
+                                    android:onClick="ipa1kls8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -230,7 +233,7 @@
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
                                             android:layout_margin="10dp"
-                                            android:src="@drawable/ipa7" />
+                                            android:src="@drawable/ipa8si" />
 
                                     </androidx.cardview.widget.CardView>
 
@@ -276,6 +279,7 @@
                                     android:autoLink="web"
                                     android:background="@color/white"
                                     android:clickable="true"
+                                    android:onClick="ipa2kls8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -291,7 +295,7 @@
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
                                             android:layout_margin="10dp"
-                                            android:src="@drawable/ipa7" />
+                                            android:src="@drawable/ipa8si" />
 
 
                                     </androidx.cardview.widget.CardView>
@@ -346,6 +350,7 @@
                                     android:autoLink="web"
                                     android:background="@color/white"
                                     android:clickable="true"
+                                    android:onClick="pra1kls8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -361,7 +366,7 @@
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
                                             android:layout_margin="10dp"
-                                            android:src="@drawable/prkry" />
+                                            android:src="@drawable/prkrya8s1" />
 
                                     </androidx.cardview.widget.CardView>
                                     \
@@ -408,6 +413,7 @@
                                     android:autoLink="web"
                                     android:background="@color/white"
                                     android:clickable="true"
+                                    android:onClick="pra2kls8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -423,7 +429,7 @@
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
                                             android:layout_margin="10dp"
-                                            android:src="@drawable/prkry" />
+                                            android:src="@drawable/prkry8s2" />
 
                                     </androidx.cardview.widget.CardView>
 
@@ -477,6 +483,7 @@
                                     android:autoLink="web"
                                     android:background="@color/white"
                                     android:clickable="true"
+                                    android:onClick="indkls8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -492,7 +499,7 @@
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
                                             android:layout_margin="10dp"
-                                            android:src="@drawable/bind7" />
+                                            android:src="@drawable/bind8" />
 
                                     </androidx.cardview.widget.CardView>
 
@@ -529,6 +536,7 @@
                                     android:layout_height="match_parent"
                                     android:autoLink="web"
                                     android:clickable="true"
+                                    android:onClick="ingkls8"
                                     android:background="@color/white"
                                     android:cursorVisible="true"
                                     android:gravity="center"
@@ -544,7 +552,7 @@
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
                                             android:layout_margin="10dp"
-                                            android:src="@drawable/bing7" />
+                                            android:src="@drawable/bingg8" />
 
 
                                     </androidx.cardview.widget.CardView>
@@ -590,6 +598,7 @@
                                     android:layout_height="match_parent"
                                     android:autoLink="web"
                                     android:clickable="true"
+                                    android:onClick="ppkn8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -604,7 +613,7 @@
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
-                                            android:src="@drawable/pkn" />
+                                            android:src="@drawable/pkn8" />
 
 
                                     </androidx.cardview.widget.CardView>
@@ -642,6 +651,7 @@
                                     android:layout_height="match_parent"
                                     android:autoLink="web"
                                     android:clickable="true"
+                                    android:onClick="paikls8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -656,7 +666,7 @@
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
-                                            android:src="@drawable/pai" />
+                                            android:src="@drawable/pai8" />
 
                                     </androidx.cardview.widget.CardView>
 
@@ -702,6 +712,7 @@
                                     android:background="@color/white"
                                     android:autoLink="web"
                                     android:clickable="true"
+                                    android:onClick="penjas8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -715,7 +726,7 @@
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
-                                            android:src="@drawable/pnjs" />
+                                            android:src="@drawable/pnjas8" />
 
                                     </androidx.cardview.widget.CardView>
 
@@ -752,6 +763,7 @@
                                     android:layout_height="match_parent"
                                     android:autoLink="web"
                                     android:clickable="true"
+                                    android:onClick="sbykls8"
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
@@ -766,7 +778,7 @@
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
-                                            android:src="@drawable/snbd" />
+                                            android:src="@drawable/senbud8" />
 
                                     </androidx.cardview.widget.CardView>
 
@@ -814,6 +826,7 @@
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:gravity="center"
+                                    android:onClick="ipskls8"
                                     android:linksClickable="true"
                                     android:background="@color/white"
                                     android:orientation="vertical">
@@ -826,7 +839,7 @@
                                             android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_gravity="center"
-                                            android:src="@drawable/ips" />
+                                            android:src="@drawable/ips8" />
 
                                     </androidx.cardview.widget.CardView>
 

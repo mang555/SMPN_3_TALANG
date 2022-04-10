@@ -19,15 +19,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-            <RelativeLayout
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="195dp"
-                android:padding="10dp">
+                android:padding="10dp"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="15dp">
 
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/image_slider"
-                    android:layout_width="match_parent"
-                    android:layout_height="188dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     app:sliderAnimationDuration="1200"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderAutoCycleEnabled="true"
@@ -41,18 +43,14 @@
                     app:sliderIndicatorUnselectedColor="#FFF"
                     app:sliderScrollTimeInSec="2"
                     app:sliderStartAutoCycle="true" />
-            </RelativeLayout>
 
+            </androidx.cardview.widget.CardView>>
 
-
-            <androidx.core.widget.NestedScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="15dp">
+                    android:padding="0dp">
 
                     <GridLayout
                         android:layout_width="match_parent"
@@ -67,6 +65,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
                             android:layout_height="150dp"
+                            android:background="@color/white"
                             android:onClick="album7"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -263,7 +262,6 @@
                     </GridLayout>
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
-            </androidx.core.widget.NestedScrollView>
 
 
         </LinearLayout>

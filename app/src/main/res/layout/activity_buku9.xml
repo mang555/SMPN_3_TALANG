@@ -251,7 +251,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/ipa"
+                                        android:src="@drawable/ipa8si"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
