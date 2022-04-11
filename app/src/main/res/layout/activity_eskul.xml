@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,233 +7,270 @@
     android:background="@drawable/snow_bg"
     tools:context=".Eskul">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:orientation="vertical"
-        android:background="#3A383A"
-        android:padding="5dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:text="Ekstrakulikuler"
-            android:textColor="@color/ic_launcher_background"
-            android:layout_marginLeft="20dp"
-            android:fontFamily="sans-serif-black"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/ic_launcher_background"
-            android:textSize="15dp"
-            android:layout_marginLeft="20dp"
-            android:textStyle="bold"
-            android:text="-------------------------------"/>
-    </LinearLayout>
-
-    <ScrollView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:orientation="vertical">
-
-            <!--            pembuka-->
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:layout_width="340dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/gradient_2"
-                android:onClick="pramuka"
-                android:orientation="horizontal"
-                android:padding="3dp">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:padding="10dp"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="15dp">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/image_slider"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
-                        android:layout_marginTop="10dp"
-                        android:text="Pramuka"
-                        android:textColor="@color/white"
-                        android:textSize="23sp"
-                        android:textStyle="bold" />
+                        app:sliderAnimationDuration="1200"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderAutoCycleEnabled="true"
+                        app:sliderIndicatorAnimationDuration="700"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="15dp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="3dp"
+                        app:sliderIndicatorRadius="2dp"
+                        app:sliderIndicatorSelectedColor="#5A5A5A"
+                        app:sliderIndicatorUnselectedColor="#FFF"
+                        app:sliderScrollTimeInSec="2"
+                        app:sliderStartAutoCycle="true" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                </androidx.cardview.widget.CardView>>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="0dp">
+
+                    <GridLayout
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="15dp"
-                        android:text="-------------------"
-                        android:textColor="@color/white"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
+                        android:id="@+id/mainGrid"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="1"
+                        android:layout_gravity="center_horizontal"
+                        android:columnOrderPreserved="false">
 
-                <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="100dp"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginBottom="55dp"
-                    android:padding="8dp"
-                    android:src="@drawable/kemh" />
+                        <!--                            PEMBUKA MENU1-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@color/white"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:background="@color/white"
+                                android:onClick="pramuka">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginRight="45dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="PRAMUKA">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="0dp"
+                                    android:src="@drawable/kemh">
+                                </ImageView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <!--                            PEMBUKA MENU2-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@color/white"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:background="@color/white"
+                                android:onClick="pmr">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginRight="45dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="PMR ">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="65dp"
+                                    android:src="@drawable/pmrrr">
+                                </ImageView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <!--                            PEMBUKA MENU 3-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@color/white"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:background="@color/white"
+                                android:onClick="futsal">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginRight="45dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="FUTSAL">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:layout_width="120dp"
+                                    android:layout_height="120dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="40dp"
+                                    android:src="@drawable/futsal">
+                                </ImageView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+                        <!--                            PEMBUKA MENU 4-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:background="@color/white"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal"
+                                android:background="@color/white"
+                                android:onClick="bulutangkis">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:layout_marginRight="45dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/black"
+                                    android:text="BOLA VOLI">
+
+                                </TextView>
+
+                                <ImageView
+                                    android:layout_width="97dp"
+                                    android:layout_height="97dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="22dp"
+                                    android:src="@drawable/vlyyyy">
+                                </ImageView>
+
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </GridLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="340dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/gradient_9"
-                android:onClick="pmr"
-                android:orientation="horizontal"
-                android:padding="3dp">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+        </ScrollView>
+    </FrameLayout>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
-                        android:layout_marginTop="10dp"
-                        android:text="Pmr coy"
-                        android:textColor="@color/white"
-                        android:textSize="23sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
-                        android:text="-------------------"
-                        android:textColor="@color/white"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="100dp"
-                    android:layout_marginLeft="35dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_marginBottom="50dp"
-                    android:padding="8dp"
-                    android:src="@drawable/pmrrr" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="340dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/gradient_1"
-                android:onClick="bulutangkis"
-                android:orientation="horizontal"
-                android:padding="3dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
-                        android:layout_marginTop="10dp"
-                        android:text="Volley coy"
-                        android:textColor="@color/white"
-                        android:textSize="23sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
-                        android:text="-------------------"
-                        android:textColor="@color/white"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="115dp"
-                    android:layout_height="85dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginBottom="20dp"
-                    android:padding="8dp"
-                    android:src="@drawable/vlyyyy" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="340dp"
-                android:layout_height="100dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:background="@drawable/gradient_8"
-                android:onClick="futsal"
-                android:orientation="horizontal"
-                android:padding="3dp">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
-                        android:layout_marginTop="10dp"
-                        android:text="Futsal"
-                        android:textColor="@color/white"
-                        android:textSize="23sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
-                        android:text="-------------------"
-                        android:textColor="@color/white"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <ImageView
-                    android:layout_width="120dp"
-                    android:layout_height="90dp"
-                    android:layout_marginLeft="40dp"
-                    android:layout_marginBottom="60dp"
-                    android:padding="8dp"
-                    android:src="@drawable/futsal" />
-
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-
-    </ScrollView>
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
