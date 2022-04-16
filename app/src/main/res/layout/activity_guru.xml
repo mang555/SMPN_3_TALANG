@@ -112,8 +112,8 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
                         android:layout_marginTop="10dp"
                         android:src="@drawable/auliarachman" />
                 </LinearLayout>
@@ -190,7 +190,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
                         android:src="@drawable/masruri" />
                 </LinearLayout>
 
@@ -266,7 +268,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/purwaizati" />
                 </LinearLayout>
 
@@ -344,7 +348,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/pinto" />
                 </LinearLayout>
 
@@ -410,7 +416,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/idas" />
                 </LinearLayout>
 
@@ -476,7 +484,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/auliarachman" />
                 </LinearLayout>
 
@@ -544,7 +554,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/afdaa" />
                 </LinearLayout>
 
@@ -609,7 +621,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/eciw" />
                 </LinearLayout>
 
@@ -674,7 +688,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/partini" />
                 </LinearLayout>
 
@@ -739,7 +755,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/auliarachman" />
                 </LinearLayout>
 
@@ -806,7 +824,9 @@
                         android:layout_width="120dp"
                         android:layout_height="110dp"
                         android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:src="@drawable/endangr" />
                 </LinearLayout>
 
@@ -862,15 +882,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/karyono" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -894,9 +919,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru  Bhs Inggris dan Prakarya"
+                        android:text="Guru  Bhs Inggris"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -924,15 +949,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -956,9 +985,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru Bhs Inggris dan Bhs Jawa"
+                        android:text="Guru Bhs Inggris"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -986,15 +1015,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1018,9 +1052,9 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru Bhs Inggris dan Bhs Indonesia"
+                        android:text="Guru Bhs Inggris"
                         android:textColor="@color/black"
-                        android:textSize="16sp"
+                        android:textSize="17sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -1050,15 +1084,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/miray" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1112,15 +1151,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1176,15 +1220,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/mufrotun" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1238,15 +1287,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/pujiw" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1300,15 +1354,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/evyr" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1332,7 +1391,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="GURU BHS INDONESIA"
+                        android:text="Guru Bhs Indonesia"
                         android:textColor="@color/black"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -1364,15 +1423,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1396,7 +1460,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru Penjas dan Bhs Indonesia"
+                        android:text="Guru Penjas"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -1426,15 +1490,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/msyamsyulr" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1448,7 +1517,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Mokhamad Syamsul Rizal,S.Pd."
+                        android:text="M Syamsul Rizal,S.Pd."
                         android:textColor="#000"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -1488,15 +1557,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/sanny" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1520,7 +1594,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Guru Penjas dan Prakarya"
+                        android:text="Guru Penjas"
                         android:textColor="@color/black"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -1552,15 +1626,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/yusro" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1614,15 +1693,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/dianw" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1678,15 +1762,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/sriwahyu" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1740,15 +1829,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/abdi" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1804,15 +1898,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/santi" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1866,15 +1965,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/sitinur" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/amar" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1928,15 +2032,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/sunad" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/aniz" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1992,15 +2101,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/lisp" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2054,15 +2168,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2116,15 +2235,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/umis" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2180,15 +2304,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/alisodikin" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2242,15 +2371,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/masitoh" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2306,15 +2440,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/sudarningsih" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2368,15 +2507,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/sitisundari" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/budip" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2433,15 +2577,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ernawati" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2495,15 +2644,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2557,15 +2711,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/trimulya" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2579,7 +2738,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Tri Muyaningsih"
+                        android:text="Tri Mulyaningsih"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -2620,15 +2779,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2682,15 +2846,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/arif" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2745,15 +2914,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2807,15 +2981,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/kurniati" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2869,15 +3048,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/myusron" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2912,7 +3096,7 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
                         android:text="-"
-                        android:textColor="#F44336"
+                        android:textColor="@color/black"
                         android:textSize="30sp"
                         android:textStyle="bold" />
 
@@ -2931,15 +3115,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/kariri" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -2993,15 +3182,20 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_gravity="center_vertical"
-                    android:layout_margin="10dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/auliarachman" />
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/auliarachman" />
+                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
