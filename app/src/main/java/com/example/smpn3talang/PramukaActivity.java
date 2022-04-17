@@ -14,8 +14,8 @@ public class PramukaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pramuka);
     }
 
-    public void album8(View view) {
-        Intent intent = new Intent(PramukaActivity.this, album8Activity.class);
+    public void album7(View view) {
+        Intent intent = new Intent(PramukaActivity.this, album7Activity.class);
         startActivity(intent);
     }
 }

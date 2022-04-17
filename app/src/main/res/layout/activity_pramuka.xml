@@ -28,7 +28,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/eskl" />
+                    android:src="@drawable/gpram4" />
             </androidx.cardview.widget.CardView>
 
                 <!--        awal isi-->
@@ -248,7 +248,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:background="@color/white"
-                                android:onClick="album8"
+                                android:onClick="album7"
                                 android:orientation="horizontal">
 
                                     <TextView
