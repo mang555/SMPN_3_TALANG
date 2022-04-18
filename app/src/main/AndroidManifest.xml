@@ -17,6 +17,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
+            android:name=".Album11Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SilatActivity"
+            android:exported="false" />
+        <activity
             android:name=".album10Activity"
             android:exported="false" />
         <activity

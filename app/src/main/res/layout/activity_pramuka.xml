@@ -28,7 +28,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/gpram4" />
+                    android:src="@drawable/gpram4"/>
             </androidx.cardview.widget.CardView>
 
                 <!--        awal isi-->

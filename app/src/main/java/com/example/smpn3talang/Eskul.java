@@ -55,4 +55,9 @@ public class Eskul extends AppCompatActivity {
         Intent intent = new Intent(Eskul.this, VoliActivity.class);
         startActivity(intent);
     }
+
+    public void silat(View view) {
+        Intent intent = new Intent(Eskul.this, SilatActivity.class);
+        startActivity(intent);
+    }
 }
