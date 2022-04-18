@@ -49,11 +49,11 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="190dp"
                                 android:layout_margin="20dp"
-                                android:src="@drawable/hdr"/>
+                                app:src="@drawable/hdr"/>
 
                         </LinearLayout>
 
@@ -82,11 +82,11 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="190dp"
                                 android:layout_margin="20dp"
-                                android:src="@drawable/hdr"/>
+                                app:src="@drawable/hdr"/>
 
                         </LinearLayout>
 
@@ -115,11 +115,11 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="190dp"
                                 android:layout_margin="20dp"
-                                android:src="@drawable/hdr"/>
+                                app:src="@drawable/hdr"/>
 
                         </LinearLayout>
 

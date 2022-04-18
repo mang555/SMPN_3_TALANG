@@ -100,47 +100,12 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginRight="15dp"
-                                android:text="Secara Organis"
+                                android:layout_margin="15dp"
+                                android:text="   Palang Merah Remaja (disingkat PMR) adalah wadah pembinaan dan pengembangan anggota remaja PMI, yang selanjutnya disebut PMR.Terdapat di PMI kota atau kabupaten di seluruh Indonesia, dengan anggota lebih dari 5 juta orang .\n    Anggota PMR merupakan salah satu kekuatan PMI dalam melaksanakan kegiatan-kegiatan kemanusiaan dibidang kesehatan dan siaga bencana, mempromosikan prinsip-prinsip dasar gerakan palang merah dan bulan sabit merah internasional, serta mengembangkan kapasitas organisasi PMI."
                                 android:textColor="@color/black"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
+                                android:textSize="14sp" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginRight="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:text="OSIS adalah satu-satunya wadah organisasi siswa yang sah di sekolah. Oleh karena itu, setiap sekolah wajib membentuk Organisasi Siswa Intra Sekolah (OSIS), yang tidak mempunyai hubungan organisatoris dengan OSIS di sekolah lain dan tidak menjadi bagian/alat dari organisasi lain yang ada di luar sekolah."
-                                android:textColor="@color/black"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginRight="15dp"
-                                android:text="Secara Fungsional"
-                                android:textColor="@color/black"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginRight="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:text="Dalam rangka pelaksanaan kebijaksanaan pendidikan, khususnya dibidang pembinaan kesiswaan, arti yang terkandung lebih jauh dalam pengertian OSIS adalah sebagai salah satu dari empat jalur pembinaan kesiswaan, di samping ketiga jalur yang lain yaitu: latihan kepemimpinan, ekstrakurikuler, dan wawasan Wiyatamandala."
-                                android:textColor="@color/black"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
 
                         </LinearLayout>
 
@@ -148,103 +113,7 @@
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_rowWeight="1"
-                        android:layout_columnWeight="1"
-                        android:layout_marginLeft="12dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginRight="12dp"
-                        android:layout_marginBottom="12dp"
-                        android:background="@color/white"
-                        app:cardCornerRadius="8dp"
-                        app:cardElevation="8dp">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@color/white"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginRight="15dp"
-                                android:text="TUJUAN DAN TUGAS PRAMUKA "
-                                android:textColor="@color/black"
-                                android:textSize="15sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginRight="15dp"
-                                android:text="Tujuan Osis"
-                                android:textColor="@color/black"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginRight="15dp"
-                                android:text="1. Meningkatkan generasi penerus yang beriman dan bertaqwa"
-                                android:textColor="@color/black"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginRight="15dp"
-                                android:text="2. Memahami, menghargai lingkungan hidup dan nilai-nilai moral dalam mengambil keputusan yang tepat"
-                                android:textColor="@color/black"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginRight="15dp"
-                                android:text="3. Membangun landasan kepribadian yang kuat dan menghargai HAM dalam kontek kemajuan budaya bangsa"
-                                android:textColor="@color/black"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginRight="15dp"
-                                android:text="4. Membangun, mengembangkan wawasan kebangsaan dan rasa cinta tanah air dalam era globalisasi"
-                                android:textColor="@color/black"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="15dp"
-                                android:layout_marginRight="15dp"
-                                android:layout_marginBottom="15dp"
-                                android:text="5. Memperdalam sikap sportif, jujur, disiplin, bertanggung jawab, dan kerjasama secara mandiri, berpikir logis dan demokratis"
-                                android:textColor="@color/black"
-                                android:textSize="13sp"
-                                android:textStyle="normal" />
-
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="50dp"
                         android:layout_weight="1"
                         android:clickable="true"
                         android:elevation="5dp"
@@ -266,6 +135,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="Album Kegiatan"
+                                android:layout_marginTop="10dp"
                                 android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold" />

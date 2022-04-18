@@ -14,8 +14,8 @@ public class FutsalActivity extends AppCompatActivity {
         setContentView(R.layout.activity_futsal);
     }
 
-    public void album8(View view) {
-        Intent intent = new Intent(FutsalActivity.this, album8Activity.class);
+    public void album9(View view) {
+        Intent intent = new Intent(FutsalActivity.this, album9Activity.class);
         startActivity(intent);
     }
 }

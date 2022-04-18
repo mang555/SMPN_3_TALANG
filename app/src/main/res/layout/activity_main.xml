@@ -107,7 +107,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="easrdfghjdfsdgfjhk"
+                        android:text="klik disini untuk jelajahi..."
                         android:textColor="@color/white"
                         android:textSize="10sp" />
 
@@ -166,7 +166,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="easrdfghjdfsdgfjhk"
+                        android:text="klik disini untuk jelajahi..."
                         android:textColor="@color/white"
                         android:textSize="10sp" />
 
@@ -212,7 +212,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lines="2"
-                            android:text="Absen \nList"
+                            android:text="Daftar \nAbsen"
                             android:textColor="@color/white"
                             android:textSize="25sp" />
 
@@ -221,7 +221,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:lines="2"
-                            android:text="easrdfghjdfsdgfjhk"
+                            android:text="klik disini untuk jelajahi..."
                             android:textColor="@color/white"
                             android:textSize="10sp" />
 
@@ -313,7 +313,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="easrdfghjdfsdgfjhk"
+                        android:text="klik disini untuk jelajahi..."
                         android:textColor="@color/white"
                         android:textSize="10sp" />
 
@@ -368,7 +368,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="easrdfghjdfsdgfjhk"
+                        android:text="klik disini untuk jelajahi..."
                         android:textColor="@color/white"
                         android:textSize="10sp" />
 
@@ -422,7 +422,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="E- \nPerpus"
+                        android:text="Online \nPerpus"
                         android:textColor="@color/white"
                         android:textSize="25sp" />
 
@@ -431,7 +431,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="easrdfghjdfsdgfjhk"
+                        android:text="klik disini untuk jelajahi..."
                         android:textColor="@color/white"
                         android:textSize="10sp" />
 
@@ -486,7 +486,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:lines="2"
-                        android:text="easrdfghjdfsdgfjhk"
+                        android:text="klik disini untuk jelajahi..."
                         android:textColor="@color/white"
                         android:textSize="10sp" />
 

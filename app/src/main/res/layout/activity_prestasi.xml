@@ -64,7 +64,7 @@
                         <!--                            PEMBUKA MENU1-->
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
-                            android:layout_height="150dp"
+                            android:layout_height="100dp"
                             android:background="@color/white"
                             android:onClick="album7"
                             android:layout_rowWeight="1"
@@ -76,46 +76,33 @@
                             app:cardCornerRadius="8dp"
                             app:cardElevation="8dp">
 
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:orientation="horizontal"
                                 android:background="@color/white"
-                                android:onClick="album7">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="100dp"
-                                    android:layout_margin="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/logo">
-                                </ImageView>
+                                android:onClick="album7"
+                                android:orientation="horizontal">
 
                                 <TextView
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="50dp"
-                                    android:textSize="15dp"
-                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:text="Album Pramuka"
                                     android:textColor="@color/black"
-                                    android:text="ALBUM HUT SMP">
-
-                                </TextView>
+                                    android:layout_marginTop="38dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
 
                             </LinearLayout>
 
-
                         </androidx.cardview.widget.CardView>
-                        <!--                            PEMBUKA MENU2-->
+                        <!--                            PEMBUKA MENU1-->
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:onClick="buku8"
+                            android:layout_height="100dp"
+                            android:background="@color/white"
+                            android:onClick="album7"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -123,49 +110,35 @@
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
                             app:cardCornerRadius="8dp"
-                            app:cardElevation="8dp"
-                            tools:ignore="OnClick">
+                            app:cardElevation="8dp">
+
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:orientation="horizontal"
                                 android:background="@color/white"
-                                android:onClick="album8">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="140dp"
-                                    android:layout_margin="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/pram">
-                                </ImageView>
+                                android:onClick="album8"
+                                android:orientation="horizontal">
 
                                 <TextView
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="50dp"
-                                    android:textStyle="bold"
-                                    android:textSize="15dp"
+                                    android:gravity="center"
+                                    android:text="Album Pmr"
                                     android:textColor="@color/black"
-                                    android:text="ALBUM PRAMUKA">
-
-                                </TextView>
+                                    android:layout_marginTop="38dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
 
                             </LinearLayout>
 
-
                         </androidx.cardview.widget.CardView>
-                        <!--                            PEMBUKA MENU 3-->
+                        <!--                            PEMBUKA MENU1-->
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:onClick="buku9"
+                            android:layout_height="100dp"
+                            android:background="@color/white"
+                            android:onClick="album7"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -173,46 +146,35 @@
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
                             app:cardCornerRadius="8dp"
-                            app:cardElevation="8dp"
-                            tools:ignore="OnClick">
+                            app:cardElevation="8dp">
+
+
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:orientation="horizontal"
                                 android:background="@color/white"
-                                android:onClick="album9">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="160dp"
-                                    android:layout_margin="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/pmrrr">
-                                </ImageView>
+                                android:onClick="album9"
+                                android:orientation="horizontal">
 
                                 <TextView
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:textSize="15dp"
-                                    android:textStyle="bold"
+                                    android:gravity="center"
+                                    android:text="Album Futsal"
                                     android:textColor="@color/black"
-                                    android:text="ALBUM PMR">
-
-                                </TextView>
+                                    android:layout_marginTop="38dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
 
                             </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
-                        <!--                            PEMBUKA MENU 4-->
+                        <!--                            PEMBUKA MENU1-->
                         <androidx.cardview.widget.CardView
                             android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:onClick="buku8"
+                            android:layout_height="100dp"
+                            android:background="@color/white"
+                            android:onClick="album7"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
                             android:layout_marginLeft="12dp"
@@ -220,42 +182,63 @@
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
                             app:cardCornerRadius="8dp"
-                            app:cardElevation="8dp"
-                            tools:ignore="OnClick">
+                            app:cardElevation="8dp">
+
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:layout_gravity="center"
-                                android:orientation="horizontal"
                                 android:background="@color/white"
-                                android:onClick="album8">
-
-                                <ImageView
-                                    android:layout_width="100dp"
-                                    android:layout_height="80dp"
-                                    android:layout_margin="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/logohut">
-                                </ImageView>
+                                android:onClick="album10"
+                                android:orientation="horizontal">
 
                                 <TextView
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="50dp"
-                                    android:textStyle="bold"
-                                    android:textSize="15dp"
+                                    android:gravity="center"
+                                    android:text="Album Voli"
                                     android:textColor="@color/black"
-                                    android:text="ALBUM HUT RI">
-
-                                </TextView>
+                                    android:layout_marginTop="38dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
 
                             </LinearLayout>
 
+                        </androidx.cardview.widget.CardView>
+                        <!--                            PEMBUKA MENU1-->
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:background="@color/white"
+                            android:onClick="album7"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/white"
+                                android:onClick="album11"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Album Silat"
+                                    android:textColor="@color/black"
+                                    android:layout_marginTop="38dp"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
 
                         </androidx.cardview.widget.CardView>
 

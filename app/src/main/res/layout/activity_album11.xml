@@ -52,7 +52,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="190dp"
                                 android:layout_margin="20dp"
-                                app:src="@drawable/gsilat1"/>
+                                app:src="@drawable/gsilat1" />
 
                         </LinearLayout>
 

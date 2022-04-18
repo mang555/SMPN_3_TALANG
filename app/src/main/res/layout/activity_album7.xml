@@ -49,11 +49,11 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="190dp"
                                 android:layout_margin="20dp"
-                                android:src="@drawable/gpram2"/>
+                                app:src="@drawable/gpram2"/>
 
                         </LinearLayout>
 
@@ -82,11 +82,11 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="190dp"
                                 android:layout_margin="20dp"
-                                android:src="@drawable/gpram3"/>
+                                app:src="@drawable/gpram3"/>
 
                         </LinearLayout>
 
@@ -115,11 +115,11 @@
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
-                            <ImageView
+                            <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="190dp"
                                 android:layout_margin="20dp"
-                                android:src="@drawable/gpram6"/>
+                                app:src="@drawable/gpram6"/>
 
                         </LinearLayout>
 

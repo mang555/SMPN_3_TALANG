@@ -46,4 +46,14 @@ public class PrestasiActivity extends AppCompatActivity {
         Intent intent = new Intent(PrestasiActivity.this, album9Activity.class);
         startActivity(intent);
     }
+
+    public void album10(View view) {
+        Intent intent = new Intent(PrestasiActivity.this, album10Activity.class);
+        startActivity(intent);
+    }
+
+    public void album11(View view) {
+        Intent intent = new Intent(PrestasiActivity.this, Album11Activity.class);
+        startActivity(intent);
+    }
 }
