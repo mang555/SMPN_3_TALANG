@@ -691,73 +691,6 @@
                         android:layout_marginLeft="3dp"
                         android:layout_marginBottom="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/partini" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="Partini,A.Ma.Pd.,S.Pd."
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="Guru Matematika"
-                        android:textColor="@color/black"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="196107171983032013"
-                        android:textColor="@color/black"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
                         android:src="@drawable/auliarachman" />
                 </LinearLayout>
 
@@ -2834,74 +2767,6 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView> <!--            tu-->
 
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="8dp"
-                app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="Andy Wijayanto,S.Pd."
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="Tenaga Administrasi"
-                        android:textColor="@color/black"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
-                        android:text="197508042009011006"
-                        android:textColor="@color/black"
-                        android:textSize="17sp"
-                        android:textStyle="bold" />
-
-
-                </LinearLayout>
-            </androidx.cardview.widget.CardView> <!--            tu-->
-
             <androidx.cardview.widget.CardView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
@@ -3085,7 +2950,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Tenaga Perpustakaan"
+                        android:text="Tenaga Administrasi"
                         android:textColor="@color/black"
                         android:textSize="17sp"
                         android:textStyle="bold" />
@@ -3152,7 +3017,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="50dp"
-                        android:text="Tenaga Administrasi"
+                        android:text="Tenaga Perpustakaan"
                         android:textColor="@color/black"
                         android:textSize="17sp"
                         android:textStyle="bold" />
