@@ -17,6 +17,18 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
         <activity
+            android:name=".Album13Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Album12Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PaskibActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JurnalisActivity"
+            android:exported="false" />
+        <activity
             android:name=".Album11Activity"
             android:exported="false" />
         <activity

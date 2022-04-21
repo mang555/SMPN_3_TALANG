@@ -60,4 +60,14 @@ public class Eskul extends AppCompatActivity {
         Intent intent = new Intent(Eskul.this, SilatActivity.class);
         startActivity(intent);
     }
+
+    public void jurnalis(View view) {
+        Intent intent = new Intent(Eskul.this, JurnalisActivity.class);
+        startActivity(intent);
+    }
+
+    public void paskib(View view) {
+        Intent intent = new Intent(Eskul.this, PaskibActivity.class);
+        startActivity(intent);
+    }
 }

@@ -16,6 +16,9 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_absen.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_album10.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_album11.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_album12.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_album13.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_album14.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_album7.xml" value="0.18" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_album8.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_album9.xml" value="0.1675929884566054" />
@@ -27,15 +30,17 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_fasilitas.xml" value="0.15" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_futsal.xml" value="0.14" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_guru.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_jurnalis.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_osis.xml" value="0.2" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_paskib.xml" value="0.15604959384352288" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_perpus.xml" value="0.18" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_pmr.xml" value="0.18" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_pramuka.xml" value="0.33" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_prestasi.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_profile.xml" value="0.21" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_silat.xml" value="0.22" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/layout/activity_voli.xml" value="0.33" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1495" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/smp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1495" />

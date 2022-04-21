@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/snow_bg"
-    tools:context=".FutsalActivity">
+    tools:context=".PaskibActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -72,7 +72,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginTop="20dp"
-                                android:text="ORGANISASI DRUMBAND"
+                                android:text="ORGANISASI PASKIBRAKA"
                                 android:textColor="#000"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -126,7 +126,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@color/white"
-                            android:onClick="album9"
+                            android:onClick="album13"
                             android:orientation="horizontal">
 
                             <TextView

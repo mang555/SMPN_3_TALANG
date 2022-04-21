@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:layout_marginBottom="150dp"
+        android:layout_marginTop="20dp"
         android:orientation="vertical">
 
         <ImageView
@@ -82,15 +82,32 @@
             android:textColor="@color/white"
             android:text="LOGIN" />
 
-        <TextView
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/forgotpass"
-            android:layout_below="@id/loginbtn"
-            android:text="Lupa Password kah Maniez ?"
-            android:textColor="@color/white"
-            android:layout_centerHorizontal="true"
-            android:layout_margin="20dp"/>
+            android:gravity="bottom"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="\u00A9Copyright 2022"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Akmal Fahrian"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
 
     </LinearLayout>
 

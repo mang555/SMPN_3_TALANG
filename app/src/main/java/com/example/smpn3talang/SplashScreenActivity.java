@@ -23,7 +23,9 @@ public class SplashScreenActivity extends AppCompatActivity {
 
         MaterialButton loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
 
-        //admin and admin
+        final Handler handler = new Handler();
+
+                //admin and admin
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
