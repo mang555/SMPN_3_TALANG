@@ -35,34 +35,18 @@
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_margin="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/rizki" />
-
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Supendi,S.Pd.,M.Pd."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -72,7 +56,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Kepala Sekolah"
                         android:textColor="#00838F"
                         android:textSize="17sp"
@@ -82,7 +65,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="196710141994121003"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -103,33 +85,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Toyibin,S.Pd."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -139,7 +107,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Wakil Kepala Sekolah"
                         android:textColor="#00838F"
                         android:textSize="17sp"
@@ -149,7 +116,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Guru Matematika"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -159,7 +125,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="197705132008011003"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -475,33 +440,19 @@
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Rusmiati,S.Pd."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -511,7 +462,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Guru Bk"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -521,7 +471,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="196405022008012003"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -679,33 +628,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Akhmad Supendi,S.Pd."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -715,7 +650,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Guru Matematika dan Ipa"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -725,7 +659,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="-"
                         android:textColor="@color/black"
                         android:textSize="30sp"
@@ -882,32 +815,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Masduki,A.Ma.Pd."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -917,7 +837,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Guru Bhs Inggris"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -927,7 +846,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="197712142008011009"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -948,33 +866,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Ikfi Nurluthfiyyah,S.Pd."
                         android:textColor="#000"
                         android:textSize="19sp"
@@ -984,7 +888,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Guru Bhs Inggris"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -994,7 +897,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="199208282020122004"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -1356,33 +1258,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Faizal Akhmad,S.Pd."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -1392,7 +1280,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Guru Penjas"
                         android:textColor="@color/black"
                         android:textSize="16sp"
@@ -1402,7 +1289,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="199208052020121001"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -1965,33 +1851,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                   <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Fajar Adi Wijayanto,S.Pd."
                         android:textColor="#000"
                         android:textSize="19sp"
@@ -2001,7 +1873,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Guru Ips"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -2011,7 +1882,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="199402012019021004"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -2168,33 +2038,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="@color/white"
+                    android:gravity="center"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Tien Kusumawati,S.Pd."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -2204,7 +2060,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Guru Seni Budaya"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -2214,7 +2069,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="197210262008012009"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -2644,33 +2498,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Tofiek,S.Pd."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -2680,7 +2520,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Tenaga Administrasi"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -2690,7 +2529,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="196707192010011001"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -2846,33 +2684,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Indah Tri Jayanti,A.Md.,S.E."
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -2882,7 +2706,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Tenaga Administrasi"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -2892,7 +2715,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="-"
                         android:textColor="@color/black"
                         android:textSize="30sp"
@@ -3114,33 +2936,19 @@
                 android:layout_marginBottom="12dp"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@color/white">
-
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="110dp"
-                        android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginTop="10dp"
-                        android:src="@drawable/auliarachman" />
-                </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center_vertical"
-                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@color/white"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Moh. Kasani"
                         android:textColor="#000"
                         android:textSize="20sp"
@@ -3150,7 +2958,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="Office Boy"
                         android:textColor="@color/black"
                         android:textSize="17sp"
@@ -3160,7 +2967,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="50dp"
                         android:text="-"
                         android:textColor="@color/black"
                         android:textSize="30sp"

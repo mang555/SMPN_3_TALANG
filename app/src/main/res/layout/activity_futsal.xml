@@ -27,7 +27,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/eskl" />
+                    android:src="@drawable/drum3" />
             </androidx.cardview.widget.CardView>
 
             <!--        awal isi-->
@@ -65,7 +65,7 @@
                                 android:layout_marginLeft="12dp"
                                 android:layout_marginTop="5dp"
                                 android:layout_marginRight="0dp"
-                                android:src="@drawable/futsal" />
+                                android:src="@drawable/logo" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -92,7 +92,7 @@
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="15dp"
                                 android:layout_marginRight="15dp"
-                                android:text="PENGERTIAN FUTSAL "
+                                android:text="PENGERTIAN DRUMBAND "
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
                                 android:textStyle="bold" />
@@ -100,8 +100,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="   Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. \n    Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki. Selain lima pemain utama, setiap regu juga diizinkan memiliki pemain cadangan"
                                 android:layout_margin="15dp"
+                                android:text="   Drumben, disebut juga orkes barisan (bahasa Inggris: drum band, marching band) adalah sekelompok barisan orang yang memainkan satu atau beberapa lagu dengan menggunakan sejumlah kombinasi alat musik (tiup, perkusi, dan sejumlah instrumen pit) secara bersama-sama."
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 

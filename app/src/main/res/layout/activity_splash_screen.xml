@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="\u00A9Copyright 2022"
-                android:textColor="#000"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
             <TextView
@@ -101,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Akmal Fahrian"
-                android:textColor="#000"
+                android:textColor="@color/white"
                 android:textStyle="bold" />
 
         </LinearLayout>

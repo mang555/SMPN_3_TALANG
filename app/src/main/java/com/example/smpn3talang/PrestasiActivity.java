@@ -12,10 +12,9 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class PrestasiActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.sldrvw,
-            R.drawable.sldrvw1,
-            R.drawable.viewsld,
-            R.drawable.viewsld1,
+    int[] images = {R.drawable.gpram4,
+            R.drawable.gpmr2,
+            R.drawable.gsilat2,
     };
 
     @Override
@@ -54,6 +53,21 @@ public class PrestasiActivity extends AppCompatActivity {
 
     public void album11(View view) {
         Intent intent = new Intent(PrestasiActivity.this, Album11Activity.class);
+        startActivity(intent);
+    }
+
+    public void album12(View view) {
+        Intent intent = new Intent(PrestasiActivity.this, Album12Activity.class);
+        startActivity(intent);
+    }
+
+    public void album13(View view) {
+        Intent intent = new Intent(PrestasiActivity.this, Album13Activity.class);
+        startActivity(intent);
+    }
+
+    public void album14(View view) {
+        Intent intent = new Intent(PrestasiActivity.this, Album14Activity.class);
         startActivity(intent);
     }
 }

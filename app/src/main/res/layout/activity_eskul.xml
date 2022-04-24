@@ -63,8 +63,8 @@
 
                         <!--                            PEMBUKA MENU1-->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="120dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
                             android:background="@color/white"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -79,6 +79,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
+                                android:gravity="center"
                                 android:orientation="horizontal"
                                 android:background="@color/white"
                                 android:onClick="pramuka">
@@ -87,8 +88,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="45dp"
                                     android:textSize="20dp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
@@ -96,16 +95,6 @@
 
                                 </TextView>
 
-                                <ImageView
-                                    android:layout_width="150dp"
-                                    android:layout_height="150dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="0dp"
-                                    android:src="@drawable/kemh">
-                                </ImageView>
 
                             </LinearLayout>
 
@@ -113,8 +102,8 @@
                         </androidx.cardview.widget.CardView>
                         <!--                            PEMBUKA MENU2-->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="120dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
                             android:background="@color/white"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -129,6 +118,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
+                                android:gravity="center"
                                 android:orientation="horizontal"
                                 android:background="@color/white"
                                 android:onClick="pmr">
@@ -137,8 +127,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="45dp"
                                     android:textSize="20dp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
@@ -146,25 +134,14 @@
 
                                 </TextView>
 
-                                <ImageView
-                                    android:layout_width="120dp"
-                                    android:layout_height="120dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="65dp"
-                                    android:src="@drawable/pmrrr">
-                                </ImageView>
-
                             </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
                         <!--                            PEMBUKA MENU 3-->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="120dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
                             android:background="@color/white"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -180,6 +157,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:orientation="horizontal"
+                                android:gravity="center"
                                 android:background="@color/white"
                                 android:onClick="futsal">
 
@@ -187,8 +165,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="45dp"
                                     android:textSize="20dp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
@@ -196,25 +172,14 @@
 
                                 </TextView>
 
-                                <ImageView
-                                    android:layout_width="120dp"
-                                    android:layout_height="120dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="10dp"
-                                    android:src="@drawable/futsal">
-                                </ImageView>
-
                             </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
                         <!--                            PEMBUKA MENU 4-->
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="120dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
                             android:background="@color/white"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -229,6 +194,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
+                                android:gravity="center"
                                 android:orientation="horizontal"
                                 android:background="@color/white"
                                 android:onClick="bulutangkis">
@@ -237,8 +203,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="45dp"
                                     android:textSize="20dp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
@@ -246,25 +210,14 @@
 
                                 </TextView>
 
-                                <ImageView
-                                    android:layout_width="97dp"
-                                    android:layout_height="97dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="22dp"
-                                    android:src="@drawable/vlyyyy">
-                                </ImageView>
-
                             </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="120dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
                             android:background="@color/white"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -279,6 +232,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
+                                android:gravity="center"
                                 android:orientation="horizontal"
                                 android:background="@color/white"
                                 android:onClick="silat">
@@ -287,8 +241,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="88dp"
                                     android:textSize="20dp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
@@ -296,25 +248,14 @@
 
                                 </TextView>
 
-                                <ImageView
-                                    android:layout_width="150dp"
-                                    android:layout_height="150dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="0dp"
-                                    android:src="@drawable/kemh">
-                                </ImageView>
-
                             </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="120dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
                             android:background="@color/white"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -329,6 +270,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
+                                android:gravity="center"
                                 android:orientation="horizontal"
                                 android:background="@color/white"
                                 android:onClick="jurnalis">
@@ -337,8 +279,6 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="25dp"
                                     android:textSize="20dp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
@@ -346,25 +286,14 @@
 
                                 </TextView>
 
-                                <ImageView
-                                    android:layout_width="120dp"
-                                    android:layout_height="120dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="10dp"
-                                    android:src="@drawable/futsal">
-                                </ImageView>
-
                             </LinearLayout>
 
 
                         </androidx.cardview.widget.CardView>
 
                         <androidx.cardview.widget.CardView
-                            android:layout_width="150dp"
-                            android:layout_height="120dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
                             android:background="@color/white"
                             android:layout_rowWeight="1"
                             android:layout_columnWeight="1"
@@ -379,6 +308,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
+                                android:gravity="center"
                                 android:orientation="horizontal"
                                 android:background="@color/white"
                                 android:onClick="paskib">
@@ -387,25 +317,12 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
-                                    android:layout_marginLeft="50dp"
-                                    android:layout_marginRight="30dp"
                                     android:textSize="20dp"
                                     android:textStyle="bold"
                                     android:textColor="@color/black"
                                     android:text="PASKIBRAKA">
 
                                 </TextView>
-
-                                <ImageView
-                                    android:layout_width="120dp"
-                                    android:layout_height="120dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_gravity="center"
-                                    android:layout_marginLeft="10dp"
-                                    android:src="@drawable/futsal">
-                                </ImageView>
 
                             </LinearLayout>
 

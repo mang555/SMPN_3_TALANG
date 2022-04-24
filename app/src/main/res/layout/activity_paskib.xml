@@ -27,7 +27,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/eskl" />
+                    android:src="@drawable/paskib3" />
             </androidx.cardview.widget.CardView>
 
             <!--        awal isi-->
@@ -65,14 +65,14 @@
                                 android:layout_marginLeft="12dp"
                                 android:layout_marginTop="5dp"
                                 android:layout_marginRight="0dp"
-                                android:src="@drawable/futsal" />
+                                android:src="@drawable/logo" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginTop="20dp"
-                                android:text="ORGANISASI PASKIBRAKA"
+                                android:text="ORGANISASI PASKIBRA"
                                 android:textColor="#000"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -92,7 +92,7 @@
                                 android:layout_marginLeft="15dp"
                                 android:layout_marginTop="15dp"
                                 android:layout_marginRight="15dp"
-                                android:text="PENGERTIAN FUTSAL "
+                                android:text="PENGERTIAN PASKIBRA"
                                 android:textColor="@color/black"
                                 android:textSize="15sp"
                                 android:textStyle="bold" />
@@ -100,8 +100,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="   Futsal adalah permainan bola yang dimainkan oleh dua tim, yang masing-masing beranggotakan lima orang. \n    Tujuannya adalah memasukkan bola ke gawang lawan, dengan memanipulasi bola dengan kaki. Selain lima pemain utama, setiap regu juga diizinkan memiliki pemain cadangan"
                                 android:layout_margin="15dp"
+                                android:text="   Paskibraka adalah singkatan dari Pasukan Pengibar Bendera Pusaka dengan tugas utamanya untuk mengibarkan dan menurunkan Bendera Pusaka dalam upacara peringatan Hari Kemerdekaan Republik Indonesia dan upacara lainya.\n   Paskibra ialah suatu ekstrakurikuler yang dapat menjadi media bagi anggotanya untuk membentuk nilai-nilai penting dalam diri. Di dalamnya terdapat nilai nilai seperti kedisiplinan, cinta tanah air, patriotisme, dan lain-lain. "
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 
